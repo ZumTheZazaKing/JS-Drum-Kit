@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drum Kit</title>
+</head>
+<body onkeydown="drumKitPlay(event)" onkeyup="backToNormal()">
+
+    <p id="title">Drum Kit</p>
+
+    <p id="desc">
+        Use your keyboard to play the drums!<br>
+        (If you don't have a keyboard, sucks to be you)
+    </p>
+
+    <div id="container">
+
+
+    <p class="button" id="A">A<br><span>Clap</span></p>
+
+    <p class="button" id="S">S<br><span>Hihat</span></p>
+
+    <p class="button" id="D">D<br><span>Kick</span></p>
+
+    <p class="button" id="F">F<br><span>Openhat</span></p>
+
+    <p class="button" id="G">G<br><span>Boom</span></p>
+
+    <p class="button" id="H">H<br><span>Ride</span></p>
+
+    <p class="button" id="J">J<br><span>Snare</span></p>
+
+    <p class="button" id="K">K<br><span>Tom</span></p>
+
+    <p class="button" id="L">L<br><span>Tink</span></p>
+
+    <p id="advice">Please acquire a wider screen</p>
+
+    </div>
+
+
+    <!--Audio Files-->
+    <audio id="clap">
+        <source src="clap.wav" type="audio/wav">
+    </audio>
+
+    <audio id="hihat">
+        <source src="hihat.wav" type="audio/wav">
+    </audio>
+
+    <audio id="kick">
+        <source src="kick.wav" type="audio/wav">
+    </audio>
+
+    <audio id="openhat">
+        <source src="openhat.wav" type="audio/wav">
+    </audio>
+
+    <audio id="boom">
+        <source src="boom.wav" type="audio/wav">
+    </audio>
+
+    <audio id="ride">
+        <source src="ride.wav" type="audio/wav">
+    </audio>
+
+    <audio id="snare">
+        <source src="snare.wav" type="audio/wav">
+    </audio>
+
+    <audio id="tom">
+        <source src="tom.wav" type="audio/wav">
+    </audio>
+
+    <audio id="tink">
+        <source src="tink.wav" type="audio/wav">
+    </audio>
+
+    
+    <script defer src="script.js"></script>
+</body>
+</html>
